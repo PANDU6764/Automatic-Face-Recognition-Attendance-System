@@ -30,27 +30,15 @@ All sensitive data such as face images, databases, and attendance logs are exclu
 
 ## Project Structure
 
-Attendance/
-├── app/
-│ └── settings.py
-│
-├── src/
-│ ├── detection/
-│ ├── recognition/
-│ ├── storage/
-│ └── utils/
-│
-├── models/
-│ └── facenet_keras.h5
-│
-├── data/
-│ ├── enrollment/ # Add your DataSet
-│ └── snapshots/ # Runtime attendance output (attendance can be store in Excel)
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
+<p align="center"><i>Project structure of the Automatic Face Recognition Attendance System</i></p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PANDU6764/Automatic-Face-Recognition-Attendance-System/main/project%20structure.png" width="600"/>
+</p>
+
+- Dataset placement: data/enrollment/
+- Attendance output should visible: data/snapshots/attendance.xlsx
+- Attendance output images should visible: data/snapshots/images
 
 > Note: Real-time datasets, databases, and attendance files are intentionally excluded for privacy reasons.
 ---
