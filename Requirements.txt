@@ -1,0 +1,20 @@
+# Core
+numpy==1.23.5
+
+# Computer Vision
+opencv-python==4.8.1.78
+mtcnn==0.1.1
+
+# Deep Learning (COMPATIBLE SET)
+tensorflow==2.10.1
+keras==2.10.0
+keras-facenet==0.3.2
+
+# ML Utilities
+scikit-learn==1.3.2
+tqdm==4.66.1
+
+# Optional (safe)
+Pillow==10.0.1
+pandas==2.0.3
+openpyxl==3.1.2
